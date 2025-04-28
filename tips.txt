@@ -1,0 +1,3 @@
+----TASKS----
+subir proyecto a github
+pasar fotos a src

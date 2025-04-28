@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/images/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+
+<body>
+    <div class="min-h-screen m-0 flex justify-center items-center">
+        <div class="flex-col box-border">
+            <div class="bg-black flex justify-between items-center">
+                <h1 class="uppercase text-white">TODO</h1>
+                <span><img src="/src/assets/svg/icon-moon.svg" alt=""></span>
+            </div>
+            <div>
+                <input type="text" placeholder="create a new todo..." id="createTask">
+                <input type="button" value="button send temporal" id="sendTask">
+            </div>
+            <!-- <h1 class="bg-amber-600">hello world</h1> -->
+            <div id="app"></div>
+            <script type="module" src="/src/main.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
